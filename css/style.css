@@ -15,8 +15,8 @@ body{
 }
 
 .navbar {
-  background-color: #00000080;
-  height: 45px;
+  background-color: #000000cc;
+  min-height: 55px;
 }
 
 .navbar-header{
@@ -54,7 +54,7 @@ body{
 /* Foto de perfil */
 
 .perfil{
- width: 25%;
+/* width: 25%; */
  border-radius: 50%;
 }
 
@@ -98,8 +98,53 @@ body{
   width: 25%;
 }
 
+
+/* === Media QUeries ===*/
+/* Extra Small (xs): Smartphone (portrait - retraso)*/
+@media(min-width: 400px){
+  .perfil {
+    width: 35%;
+    border: solid 2px blue;
+  }
+}
+
+/* Small (sm): Smartphone (landscape - paisagem)*/
+@media(min-width: 576px){
+  .perfil {
+    width: 75%;
+    border: solid 2px #bc41ce;
+  }
+}
+
+/* Medium (md): Tablet */
+@media(min-width: 768px){
+  .perfil {
+    width: 50%;
+    border: solid 2px #20a000;
+  }
+}
+
+/* Large (lg): Notebook */
+@media(min-width: 992px){
+  .perfil {
+    width: 35%;
+    border: solid 2px #ffd000;
+  }
+}
+
+/* Extra Large (xl): Computador */
+@media(min-width: 1200px){
+  .perfil {
+    width: 25%;
+    border: solid 2px #dc143c;
+  }
+}
+
+
+/* CLASSE TESTE */
+
 .borda1{
- border: solid 2px #ff4a4a;
+
 
 }
 
