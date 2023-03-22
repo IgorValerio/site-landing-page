@@ -65,6 +65,13 @@ body{
   height: 800px;
 }
 
+.paginas {
+  padding-top: 55px;
+  text-align: center;
+  letter-spacing: 3px;
+  height: 1600px;
+}
+
 .botao{
   margin-top: 35px;
   display: inline-block;
@@ -98,6 +105,26 @@ body{
   width: 25%;
 }
 
+.stars{
+  width: 45%;
+}
+
+.avaliacao{
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #232323;
+  border: 3px solid #232323;
+}
+
+.bloco{
+  margin-top: 24px;
+}
+
+.img-curso {
+  width: 100%;
+  border-radius: 8px;
+}
 
 /* === Media QUeries ===*/
 /* Extra Small (xs): Smartphone (portrait - retraso)*/
@@ -114,6 +141,11 @@ body{
     width: 75%;
     border: solid 2px #bc41ce;
   }
+
+  .star{ width: 55%; }
+
+  .stars{ width: 100%; }
+
 }
 
 /* Medium (md): Tablet */
@@ -122,6 +154,11 @@ body{
     width: 50%;
     border: solid 2px #20a000;
   }
+
+  .star{
+    width: 35%;
+  }
+
 }
 
 /* Large (lg): Notebook */
@@ -130,6 +167,9 @@ body{
     width: 35%;
     border: solid 2px #ffd000;
   }
+
+  .star{ width: 35%; }
+
 }
 
 /* Extra Large (xl): Computador */
@@ -138,6 +178,8 @@ body{
     width: 25%;
     border: solid 2px #dc143c;
   }
+
+  .star{ width: 25%; }
 }
 
 
